@@ -1,5 +1,3 @@
-# WalletConnect Example Dapp
-
 ## Develop
 
 ```bash
