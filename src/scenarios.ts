@@ -3,13 +3,13 @@ import { apiGetTxnParams, ChainType } from "./helpers/api";
 
 const testAccounts = [
   algosdk.mnemonicToSecretKey(
-    "cannon scatter chest item way pulp seminar diesel width tooth enforce fire rug mushroom tube sustain glide apple radar chronic ask plastic brown ability badge",
+    "unique urban normal exchange shrimp inspire steel domain family cheap sea river input credit embark day organ dune try squeeze subject trial can about fault",
   ),
   algosdk.mnemonicToSecretKey(
-    "person congress dragon morning road sweet horror famous bomb engine eager silent home slam civil type melt field dry daring wheel monitor custom above term",
+    "leisure pigeon pottery save camera nephew drift unhappy fine town leave nasty mixed soup frog warrior flush save flame bottom senior muffin ship above excite",
   ),
   algosdk.mnemonicToSecretKey(
-    "faint protect home drink journey humble tube clinic game rough conduct sell violin discover limit lottery anger baby leaf mountain peasant rude scene abstract casual",
+    "empower twist carpet lawsuit across tape add leopard prevent abandon squeeze egg clown river funny sea labor level scheme race crime mystery party absent exist",
   ),
 ];
 
