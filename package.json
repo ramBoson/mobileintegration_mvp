@@ -1,8 +1,9 @@
 {
+  "homepage":"http://ramBoson.github.io/mobileintegration_mvp",
   "name": "walletconnect-example-dapp",
   "version": "1.6.5",
   "private": true,
-  "homepage": "https://jasonpaulos.github.io/algorand-walletconnect-example-dapp",
+  
   "keywords": [
     "walletconnect",
     "ethereum",
@@ -12,6 +13,8 @@
   "author": "WalletConnect <walletconnect.org>",
   "license": "LGPL-3.0",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
@@ -31,6 +34,7 @@
     "algorand-walletconnect-qrcode-modal": "^1.6.1",
     "algosdk": "^1.11.1",
     "blockies-ts": "^1.0.0",
+    "gh-pages": "^3.2.3",
     "prop-types": "^15.7.2",
     "qr-image": "^3.2.0",
     "react": "^16.13.1",
